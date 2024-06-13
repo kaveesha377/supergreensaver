@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="lib/fontawesome/css/all.min.css">
+      <link rel="stylesheet" href="lib/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/styles.css">
+      <script src="https://kit.fontawesome.com/4ea5c76ec3.js" crossorigin="anonymous"></script>
+      <title>Super Green Server</title>
+   </head>
+   <body style="background-color: #E9F7EF">
+      <nav id="navmenu" class="navbar navbar-expand-lg sticky-top">
+         <a class="navbar-brand">
+         <img src="images/logo.png" width="30" height="30" class="d-inline-block align-top" loading="lazy">
+         <span>Super Green Server</span></br>
+         </a>
+         <button id="nav-toggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span id="nav-toggle-icon" class="fas fa-ellipsis-v"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul id="navmenu-links" class="navbar-nav ml-auto">
+               <li class="nav-item active">
+                  <a class="nav-link" href="#home">Home</a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link" href="#project-scope" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Project Scope
+                  </a>
+                  <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item" href="#project-scope">GGG</a>
+                     <a class="dropdown-item" href="#research_gap">Research Gap</a>
+                     <a class="dropdown-item" href="#research_problem">Research Problem & Solution</a>
+                     <a class="dropdown-item" href="#research_objectives">Research Objectives</a>
+                     <a class="dropdown-item" href="#methodology">Methodology</a>
+                     <a class="dropdown-item" href="#tech_used">Technologies</a>
+                     </div> -->
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#milestones">Milestones</a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link" href="#downloads">Downloads</a>
+               </li>
+               <!-- <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Downloads
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#downloads">Documents</a>
+                      <a class="dropdown-item" href="#presentations">Presentations</a>
+                  </div>
+                  </li> -->
+               <li class="nav-item">
+                  <a class="nav-link" href="#about">About Us</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact Us</a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <section id="home">
+      <div class="container">
+         <div class="hero-cta">
+            <h1>Super Green Saver<br />For Potatoes</h1>
+            <a style="border-color:black; color:black;" class="btn btn-outline-light" type="button" href="#project-scope"><span class="btn-text">Learn
+            More</span><span class="fas fa-chevron-right btn-icon"></span></a>
+         </div>
+      </div>
+      <div class="hero-cover">
+         <video class="background-video" autoplay loop muted playsinline>
+            <source src="back.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+         </video>
+      </div>
+      <section/>
+      <!-- project-scope -->
+      <section id="project-scope" class="main-sections" style="background-color:#FDFEFE">
+         <div class="container">
+         <h1 class="pb-1 pt-5 text-center mb-3 display-5">Project Scope</h1>
+         <!-- Research Gap -->
+         <h2 class="pb-1 pt-5 text-center mb-3 display-5">Research Gap</h2>
+         <p style="text-align: justify;">
+            Despite extensive research in enhancing various aspects of the potato supply chain, significant gaps remain. One major gap is the integration of advanced predictive models for both demand and price forecasting tailored specifically to the dynamic nature of the potato market. While existing studies have developed forecasting models, their application in real-time scenarios remains limited due to the rapidly changing market conditions and external factors affecting potato demand and prices.
+            Another gap is in the implementation of comprehensive traceability systems. Although technologies like blockchain and QR codes have been proposed for tracking, their adoption in the potato supply chain is still in its infancy. There is a lack of empirical studies demonstrating the effectiveness of these technologies in improving transparency, safety, and consumer trust in the potato supply chain.
+            Furthermore, the selection of suppliers based on advanced data-driven methods such as genetic algorithms and neural networks has not been fully explored in the context of the potato supply chain. Current research focuses primarily on general supply chain management, with limited specific applications to potatoes. There is a need for tailored models that consider the unique attributes and challenges of the potato supply chain.               
+         </p>
+         <!-- Research Problem -->
+         <h2 class="pb-1 pt-5 text-center mb-3 display-5">Research Problem</h2>
+         <p style="text-align: justify;">
+            The core research problem is the inefficiency and lack of sustainability in the potato supply chain due to inadequate demand and price forecasting, insufficient traceability mechanisms, and suboptimal supplier selection processes. These issues lead to significant supply chain disruptions, resulting in economic losses, reduced product quality, and diminished consumer trust.
+            Specifically, the inability to accurately predict demand and prices hinders effective production and distribution planning, causing either surplus or shortage of potatoes. The lack of robust traceability systems makes it challenging to ensure food safety and quality, posing health risks and eroding consumer confidence. Additionally, the absence of advanced supplier selection methods results in inefficiencies and higher costs, affecting the overall performance of the supply chain.
+            Addressing these problems requires a comprehensive approach that integrates advanced predictive modeling, innovative traceability technologies, and sophisticated supplier evaluation techniques to enhance the efficiency, transparency, and sustainability of the potato supply chain.
+         </p>
+         <!-- Literature Survey -->
+         <h2 class="pb-1 pt-5 text-center mb-3 display-5">Literature Review</h2>
+         <p style="text-align: justify;">
+            The potato is a crucial root crop globally, essential in both home cooking and industrial food production. In Sri Lanka, its significance is driven by strong consumer demand and its economic benefits for agricultural stakeholders. However, U.S. potato production struggles to meet rising demand, causing supply chain issues. Addressing these challenges involves enhancing demand forecasting, price prediction, product tracking, and supplier selection.
+            Accurate demand prediction is vital for effective supply chain management. Researchers use historical data, market trends, and consumer behavior to develop forecasting models, helping stakeholders optimize production and distribution. Similarly, price prediction models, which consider factors like production costs and market trends, enable businesses to strategize and remain competitive.
+            Product tracking is essential for transparency and accountability in the potato supply chain. Technologies like blockchain and QR codes can create a detailed digital trail, enhancing food safety and quality. Effective tracking helps identify and address food safety issues swiftly, ensuring consumer health and trust.
+            Selecting the right suppliers is critical for a smooth supply chain. Researchers aim to evaluate and rank suppliers based on quality, reliability, and logistical capabilities using data-driven methods. Strategic supplier selection enhances operational efficiency and fosters long-lasting relationships in the potato industry.
+            Studies have highlighted various methods to improve the potato supply chain. For instance, researchers emphasize the importance of understanding dormancy and storability trends to meet demand successfully. Advanced recognition technologies, such as leaf-based systems, aid in accurate demand forecasting by providing insights into potato varieties and quality.
+            Price forecasting is another key aspect. Deep learning techniques and comprehensive forecasting concepts help develop models that predict price changes, enabling retailers to adjust pricing strategies for maximum profitability. Understanding market dynamics and supply chain impacts on prices is crucial for optimal pricing decisions.
+            Traceability in the potato supply chain ensures safety, quality, and transparency. Tracking pest origins, pesticide usage, and employing blockchain technology for traceability systems are some methods explored to enhance the supply chain's integrity. Such systems allow stakeholders to monitor the entire process, ensuring the authenticity and quality of potatoes.
+            In supplier selection, optimization techniques like genetic algorithms and neural networks are used to evaluate suppliers based on various factors, improving decision-making processes. These methods help identify suppliers that best meet the supply chain's needs, ensuring product quality and cost-effectiveness.
+            Overall, improving the potato supply chain involves leveraging data-driven approaches in demand and price forecasting, product tracking, and supplier selection to enhance efficiency, transparency, and sustainability in the potato sector.                
+         </p>
+         <div id="research_objectives" class="sub-section">
+            <div class="container">
+               <h2 class="pb-5 pt-5 text-center mb-2 display-5">Research Objectives</h2>
+               <!-- First Content Section-->
+               <div class="row align-items-center connecting-lines d-flex">
+                  <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+                     <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+                  </div>
+                  <div class="col-6">
+                     <!-- <h4>Classification of Weligama Coconut Leaf Wilt Disease</h4> -->
+                     <p style="text-align: justify;">The main objective of this research is to enhance the efficiency, transparency, and sustainability of the potato supply chain through advanced machine learning techniques. By developing accurate demand forecasting and price prediction models, integrating blockchain-based product tracing systems, and optimizing supplier selection processes, the study aims to address current supply chain challenges. This comprehensive approach seeks to improve production planning, reduce waste, ensure product quality, and strengthen supplier relationships. Ultimately, the goal is to create a robust and responsive potato supply chain that can adapt to market demands and enhance profitability for all stakeholders involved.                                </p>
+                  </div>
+               </div>
+               <!-- Path Line -->
+               <div class="row timeline_s">
+                  <div class="col-2">
+                     <div class="corner top-right"></div>
+                  </div>
+                  <div class="col-8">
+                     <hr />
+                  </div>
+                  <div class="col-2">
+                     <div class="corner left-bottom"></div>
+                  </div>
+               </div>
+               <!-- Second Content Section-->
+               <div class="row align-items-center justify-content-end connecting-lines d-flex">
+                  <div class="col-6 text-right">
+                     <h4>Forecasting Demand                                </h4>
+                     <p style="text-align: justify;">This component focuses on predicting potato demand using historical sales data, market trends, and seasonal variations. Machine learning techniques, including regression analysis and neural networks, are employed to create models that accurately forecast demand fluctuations. This helps stakeholders optimize production and inventory management, ensuring a balanced supply chain. By providing insights into future demand patterns, businesses can make informed decisions, reduce waste, and respond effectively to changes in consumer preferences and market conditions.</p>
+                  </div>
+                  <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+                     <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+                  </div>
+               </div>
+               <!-- Path Line -->
+               <div class="row timeline_s">
+                  <div class="col-2">
+                     <div class="corner right-bottom"></div>
+                  </div>
+                  <div class="col-8">
+                     <hr />
+                  </div>
+                  <div class="col-2">
+                     <div class="corner top-left"></div>
+                  </div>
+               </div>
+               <!-- Third Content Section -->
+               <div class="row align-items-center connecting-lines d-flex">
+                  <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+                     <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+                  </div>
+                  <div class="col-6">
+                     <h4>Predicting Prices</h4>
+                     <p style="text-align: justify;">
+                        Price prediction models are developed using machine learning algorithms to analyze factors influencing potato prices, such as production costs, market trends, and external events. These models, including linear regression, decision trees, and neural networks, aim to forecast price changes accurately. By predicting price fluctuations, stakeholders can adjust pricing strategies, improve profitability, and remain competitive in the market. The integration of real-time data enhances the accuracy of these models, providing valuable insights for strategic planning and decision-making.
+                     </p>
+                  </div>
+               </div>
+               <!-- Path Line -->
+               <div class="row timeline_s">
+                  <div class="col-2">
+                     <div class="corner top-right"></div>
+                  </div>
+                  <div class="col-8">
+                     <hr />
+                  </div>
+                  <div class="col-2">
+                     <div class="corner left-bottom"></div>
+                  </div>
+               </div>
+               <!-- Second Content Section-->
+               <div class="row align-items-center justify-content-end connecting-lines d-flex">
+                  <div class="col-6 text-right">
+                     <h4>Product Tracing</h4>
+                     <p style="text-align: justify;">Product tracing enhances transparency and accountability within the potato supply chain. Utilizing blockchain technology and QR codes, each batch of potatoes is tracked from farm to consumer. This system records essential information at every stage, ensuring product authenticity and quality. Improved traceability helps quickly address food safety issues, boosts consumer trust, and complies with regulatory standards. By offering detailed insights into the product's journey, stakeholders can ensure the integrity and safety of the supply chain.
+                     </p>
+                  </div>
+                  <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+                     <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+                  </div>
+               </div>
+               <!-- Path Line -->
+               <div class="row timeline_s">
+                  <div class="col-2">
+                     <div class="corner right-bottom"></div>
+                  </div>
+                  <div class="col-8">
+                     <hr />
+                  </div>
+                  <div class="col-2">
+                     <div class="corner top-left"></div>
+                  </div>
+               </div>
+               <div class="row align-items-center connecting-lines d-flex">
+                  <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+                     <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+                  </div>
+                  <div class="col-6">
+                     <h4>Supplier Selection</h4>
+                     <p style="text-align: justify;">
+                        Supplier selection is optimized using machine learning algorithms to identify and rank the most reliable and efficient potato suppliers. Criteria such as quality, dependability, and logistical performance are analyzed to select the best suppliers. This process enhances the efficiency and stability of the supply chain, fostering strong relationships between farmers and retailers. Advanced techniques like genetic algorithms and neural networks improve supplier evaluation, ensuring consistent supply and high-quality products.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="methodology" class="sub-section">
+            <h2>Methodology</h2>
+            <div class="row">
+               <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5">
+                  <div class="section-left">
+                     <div class="section-figure">
+                        <img src="../images/diagram2.png" width="100%" height="360px" />
+                        <p>Figure 1. High Level Architecture of the system.</p>
+                     </div>
+                  </div>
+               </div>
+               <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+                  <p>For the purpose of enhancing the capabilities of the potato industry in terms of supply chain management and forecast- ing, this research contains four very important components. Selection of suppliers, forecasting of demand and prices, and tracking of products are some of the duties that need to be completed.The approach for selecting suppliers makes use of machine learning algorithms in order to identify and rank the potato suppliers who are the most dependable and productive. In order to choose the best providers, the system looks at things like quality, dependability, and shipping performance. The supply system for potatoes is now safe and reliable because of this. In order to make a good guess about how many potatoes will be eaten, the demand forecast programs use a huge amount of data and predictive analytics. The method looks at things like customer tastes, seasonal changes, and market dynamics to give a good picture of how demand will change in the future. This makes it easier for everyone involved to make sure that production and marketing efforts are well
+                     aligned. Product tracking technologies, like blockchain and QR code systems, are now being used to make the whole potato supply chain more open and easy to watch. A process exists that lets people who are interested follow potatoes from the farm to the plate of a customer. With this method, each batch of potatoes is given a unique name, and important details are written down at every step of the supply chain. Having this information lets us understand the trip the potatoes took in a more open and complete way. This guarantees that the product is real, that its quality is strictly controlled, and that it meets all legal standards. As a result, customers have more faith and trust in the product in question. There are other advantages, one of which is that the product is genuine.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div id="tech_used" class="sub-section">
+            <h2>Technologies Used</h2>
+            <div class="row technology mt-5">
+               <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                     <img src="images/python.png" alt="Python">
+                  </div>
+                  <p>Python</p>
+               </div>
+               <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                     <img src="images/anaconda.png" alt="Anaconda">
+                  </div>
+                  <p>Anaconda</p>
+               </div>
+               <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                     <img src="images/tensorflow.png" alt="Python">
+                  </div>
+                  <p>flask</p>
+               </div>
+               <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                     <img src="images/flutter.png" alt="Flutter">
+                  </div>
+                  <p>MongoDB</p>
+               </div>
+               <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                     <img src="images/firebase.png" alt="Firebase">
+                  </div>
+                  <p>pycharm</p>
+               </div>
+               <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                     <img src="images/colab.png" alt="Google Colab">
+                  </div>
+                  <p>Google Colab</p>
+               </div>
+            </div>
+            <div id="centerVideo" class="sub-section">
+               <h2 class="text-center">Product Demo</h2>
+               <div class="row mt-5">
+                  <div class="col-12 text-center">
+                     <video width="640" height="360" controls>
+                        <source src="back.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                     </video>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Milestones -->
+      <section id="milestones" class="main-sections">
+         <div class="container">
+            <h5 class="section-headings">Milestones</h5>
+            <div class="sub-section">
+               <h2>Timeline in Brief</h2>
+               <div class="milestones">
+                  <ul class="timeline">
+                     <!-- Project Proposal -->
+                     <li class="timeline-event">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                           <p class="timeline-event-thumbnail">June 2023</p>
+                           <h3>Project Proposal</h3>
+                           <p>A Project Proposal is presented to potential sponsors or clients to receive funding or get your project approved.</p>
+                           <p><strong>Marks Allocated : </strong>12</p>
+                           <div class="progress">
+                              <div class="progress-bar bg-success" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">12%</div>
+                           </div>
+                        </div>
+                     </li>
+                     <!-- Progress Presentation I -->
+                     <li class="timeline-event">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                           <p class="timeline-event-thumbnail">November 2023</p>
+                           <h3>Progress Presentation I</h3>
+                           <p>Progress Presentation I reviews the 50% completetion status of the project. This reveals any gaps or inconsistencies in the design/requirements.</p>
+                           <p><strong>Marks Allocated : </strong>15</p>
+                           <div class="progress">
+                              <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 12%" aria-valuenow="13" aria-valuemin="0" aria-valuemax="100">
+                              </div>
+                              <div class="progress-bar bg-success" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
+                           </div>
+                        </div>
+                     </li>
+                     <!-- Research Paper -->
+                     <li class="timeline-event">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                           <p class="timeline-event-thumbnail">March 2024</p>
+                           <h3>Research Paper</h3>
+                           <p>Describes what you contribute to existing knowledge, giving due recognition to all work that you referred in making new knowledge</p>
+                           <p><strong>Marks Allocated : </strong>10</p>
+                           <div class="progress">
+                              <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 27%" aria-valuenow="27" aria-valuemin="0" aria-valuemax="100">
+                              </div>
+                              <div class="progress-bar bg-success" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+                           </div>
+                        </div>
+                     </li>
+                     <!-- Progress Presentation II -->
+                     <li class="timeline-event">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                           <p class="timeline-event-thumbnail">March 2023</p>
+                           <h3>Progress Presentation II</h3>
+                           <p>Progress Presentation II reviews the 90% completetion status demonstration of the project. Along with a Poster presesntation which describes the project as a whole.</p>
+                           <p><strong>Marks Allocated : </strong>18</p>
+                           <div class="progress">
+                              <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 37%" aria-valuenow="37" aria-valuemin="0" aria-valuemax="100">
+                              </div>
+                              <div class="progress-bar bg-success" role="progressbar" style="width: 18%" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">18%</div>
+                           </div>
+                        </div>
+                     </li>
+                     <!-- Website -->
+                     <li class="timeline-event">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                           <p class="timeline-event-thumbnail">June 2024</p>
+                           <h3>Website Assessment</h3>
+                           <p>The Website helps to promote our research project and reveals all details related to the project.</p>
+                           <p><strong>Marks Allocated : </strong>2</p>
+                           <div class="progress">
+                              <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                              </div>
+                              <div class="progress-bar bg-success" role="progressbar" style="width: 2%" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100">2%</div>
+                           </div>
+                        </div>
+                     </li>
+                     <!-- Logbook -->
+                     <li class="timeline-event">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                           <p class="timeline-event-thumbnail">June 2024</p>
+                           <h3>Logbook</h3>
+                           <p>Status of the project is validated through the Logbook. This also includes, Status documents 1 & 2.
+                           </p>
+                           <p><strong>Marks Allocated : </strong>2</p>
+                           <div class="progress">
+                              <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 57%" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100">
+                              </div>
+                              <div class="progress-bar bg-success" role="progressbar" style="width: 2%" aria-valuenow="4" aria-valuemin="0" aria-valuemax="100">2%</div>
+                           </div>
+                        </div>
+                     </li>
+                     <!-- Final Report -->
+                     <li class="timeline-event">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                           <p class="timeline-event-thumbnail">June 2024</p>
+                           <h3>Final Report</h3>
+                           <p>Final Report evalutes the completed project done throughout the year. Marks mentioned below includes marks for Individual & group reports and also Final report.</p>
+                           <p><strong>Marks Allocated : </strong>19</p>
+                           <div class="progress">
+                              <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 61%" aria-valuenow="61" aria-valuemin="0" aria-valuemax="100">
+                              </div>
+                              <div class="progress-bar bg-success" role="progressbar" style="width: 19%" aria-valuenow="29" aria-valuemin="0" aria-valuemax="100">19%</div>
+                           </div>
+                        </div>
+                     </li>
+                     <!-- Viva -->
+                     <li class="timeline-event">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                           <p class="timeline-event-thumbnail">June 2024</p>
+                           <h3>Final Presentation & Viva</h3>
+                           <p>Viva is held individually to assess each members contribution to the project.</p>
+                           <p><strong>Marks Allocated : </strong>20</p>
+                           <div class="progress">
+                              <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                              </div>
+                              <div class="progress-bar bg-success" role="progressbar" style="width: 20%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">20%</div>
+                           </div>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Downloads -->
+      <section id="downloads" class="main-sections">
+         <div class="container">
+            <h5 class="section-headings">Downloads</h5>
+            <!-- Documents -->
+            <div class="sub-section">
+               <h2>Documents</h2>
+               <p>Please find all documents related to this project below.</p>
+               <div class="row mt-sm-5 downloads-container">
+                  <!-- Topic Assessment -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                     <div class="card">
+                        <div class="card-body">
+                           <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Topic Assessment
+                           </h5>
+                           <p class="card-text pt-sm-2">Submitted on 2023/07/10</p>
+                        </div>
+                        <ul class="download-items list-group list-group-flush">
+                           <li class="list-group-item">Group<a href="https://drive.google.com/drive/folders/1y709u4fgfvDx34mKq8rk37F1ZDLohTke?usp=sharing" target="_blank">Download</a></li>
+                           <!-- <li class="list-group-item">Individual<a href="">Download</a></li> -->
+                        </ul>
+                     </div>
+                  </div>
+                  <!-- Project Charter -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                     <div class="card">
+                        <div class="card-body">
+                           <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Project Charter
+                           </h5>
+                           <p class="card-text pt-sm-2">Submitted on 2023/07/10</p>
+                        </div>
+                        <ul class="download-items list-group list-group-flush">
+                           <li class="list-group-item">Group<a href="https://drive.google.com/drive/folders/1y709u4fgfvDx34mKq8rk37F1ZDLohTke?usp=sharing" target="_blank">Download</a></li>
+                           <!-- <li class="list-group-item">Individual<a href="">Download</a></li> -->
+                        </ul>
+                     </div>
+                  </div>
+                  <!-- Project Proposal -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                     <div class="card">
+                        <div class="card-body">
+                           <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Project Proposal
+                           </h5>
+                           <p class="card-text pt-sm-2">Submitted on 2023/08/02</p>
+                        </div>
+                        <ul class="download-items list-group list-group-flush">
+                           <li class="list-group-item">Individual<a href="https://drive.google.com/drive/folders/1y709u4fgfvDx34mKq8rk37F1ZDLohTke?usp=sharing" target="_blank">Download</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <!-- Status Documents -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                     <div class="card">
+                        <div class="card-body">
+                           <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Status Documents I</h5>
+                           <p class="card-text pt-sm-2">Submitted on 2023/10/06</p>
+                        </div>
+                        <ul class="download-items list-group list-group-flush">
+                           <!-- <li class="list-group-item">Group<a href="">Download</a></li> -->
+                           <li class="list-group-item">Individual<a href="https://drive.google.com/drive/folders/1y709u4fgfvDx34mKq8rk37F1ZDLohTke?usp=sharing" target="_blank">Download</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <!-- Status Documents -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                     <div class="card">
+                        <div class="card-body">
+                           <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Status Documents II</h5>
+                           <p class="card-text pt-sm-2">Submitted on 2024/03/18</p>
+                        </div>
+                        <ul class="download-items list-group list-group-flush">
+                           <!-- <li class="list-group-item">Group<a href="">Download</a></li> -->
+                           <li class="list-group-item">Individual<a href="https://drive.google.com/drive/folders/1y709u4fgfvDx34mKq8rk37F1ZDLohTke?usp=sharing" target="_blank">Download</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <!-- Research -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                     <div class="card">
+                        <div class="card-body">
+                           <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Research Paper
+                           </h5>
+                           <p class="card-text pt-sm-2">Submitted on 2024/03/04</p>
+                        </div>
+                        <ul class="download-items list-group list-group-flush">
+                           <li class="list-group-item">Group<a href="https://drive.google.com/drive/folders/1y709u4fgfvDx34mKq8rk37F1ZDLohTke?usp=sharing" target="_blank">Download</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <!-- Final Report -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                     <div class="card">
+                        <div class="card-body">
+                           <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Final Report
+                           </h5>
+                           <p class="card-text pt-sm-2">Submitted on 2024/07/31</p>
+                        </div>
+                        <ul class="download-items list-group list-group-flush">
+                           <li class="list-group-item">Group<a href="https://drive.google.com/drive/folders/1y709u4fgfvDx34mKq8rk37F1ZDLohTke?usp=sharing" target="_blank">Download</a></li>
+                           <li class="list-group-item">Individual<a href="https://drive.google.com/drive/folders/1y709u4fgfvDx34mKq8rk37F1ZDLohTke?usp=sharing" target="_blank">Download</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <!-- Poster -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                     <div class="card">
+                        <div class="card-body">
+                           <h5 class="card-title"><i class="fas fa-file-image mr-2 download-image"></i>Poster
+                           </h5>
+                           <p class="card-text pt-sm-2">Submitted on 2024/09/04</p>
+                        </div>
+                        <ul class="download-items list-group list-group-flush">
+                           <li class="list-group-item">Group<a href="https://drive.google.com/drive/folders/1y709u4fgfvDx34mKq8rk37F1ZDLohTke?usp=sharing" target="_blank">Download</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Presentations -->
+            <div id="presentations" class="sub-section">
+               <h2>Presentations</h2>
+               <p>Please find all presentations related this project below.</p>
+               <div class="row mt-sm-5 downloads-container">
+                  <!-- Project Proposal -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                     <div class="card">
+                        <div class="card-body">
+                           <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Project Proposal
+                           </h5>
+                           <p class="card-text pt-sm-2">Submitted on 2023/08/02</p>
+                        </div>
+                        <ul class="download-items list-group list-group-flush">
+                           <li class="list-group-item">Group<a href="https://drive.google.com/drive/folders/1y709u4fgfvDx34mKq8rk37F1ZDLohTke?usp=sharing" target="_blank">Download</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <!-- Progress Presentation I -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                     <div class="card">
+                        <div class="card-body">
+                           <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Progress Presentation I</h5>
+                           <p class="card-text pt-sm-2">Submitted on 2023/11/07</p>
+                        </div>
+                        <ul class="download-items list-group list-group-flush">
+                           <li class="list-group-item">Group<a href="https://drive.google.com/drive/folders/1y709u4fgfvDx34mKq8rk37F1ZDLohTke?usp=sharing" target="_blank">Download</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <!-- Progress Presentation II -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                     <div class="card">
+                        <div class="card-body">
+                           <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Progress Presentation II</h5>
+                           <p class="card-text pt-sm-2">Submitted on 2024/03/18</p>
+                        </div>
+                        <ul class="download-items list-group list-group-flush">
+                           <li class="list-group-item">Group<a href="https://drive.google.com/drive/folders/1y709u4fgfvDx34mKq8rk37F1ZDLohTke?usp=sharing" target="_blank">Download</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <!-- Final Presentation -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                     <div class="card">
+                        <div class="card-body">
+                           <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Final Presentation
+                           </h5>
+                           <p class="card-text pt-sm-2">Submitted on 2024/05/22</p>
+                        </div>
+                        <ul class="download-items list-group list-group-flush">
+                           <li class="list-group-item">Group<a href="https://drive.google.com/drive/folders/1y709u4fgfvDx34mKq8rk37F1ZDLohTke?usp=sharing" target="_blank">Download</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- About Us -->
+      <section id="about" class="main-sections " style="background-color:#FDFEFE">
+         <div class="container">
+            <h5 class="section-headings text-center">About Us</h5>
+            <div class="sub-section about-us-container ">
+               <h1 class="pb-1 pt-5 text-center mb-3 display-5">Meet Our Team !</h1>
+               <div class="row  mt-sm-5 ">
+                  <!-- Supervisor -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                     <div class="card about-us-card">
+                        <img src="images/image.png" class="about-us-image supervisor" alt="Dr. Harinda Fanando" height="20%" />
+                        <div class="card-body">
+                           <h5 class="card-title">Ms. Bhagyanie Chathurika</h5>
+                           </br>
+                           <span class="badge badge-secondary">Supervisor</span>
+                           <div class="text-group">
+                              <p>Sri Lanka Institute of Information Technology</p>
+                           </div>
+                           <div class="text-group">
+                              <p><strong>Department</strong></p>
+                              <p>INFORMATION TECHNOLOGY</p>
+                           </div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                           <li class="list-group-item">
+                              <a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/bhagyanie-chathurika-bab66a177/"><i
+                                 class="fab fa-google mr-2"></i>G-Scholar</a>
+                              <a class="card-text" style="cursor: pointer;" href="mailto:bhagyanie.c@sliit.lk"><i
+                                 class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <!-- Co Supervisor -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                     <div class="card about-us-card">
+                        <img src="images/coSupervisor.jpeg" class="about-us-image cosupervisor" alt="Ms. Suriyaa Kumari" height="20%" />
+                        <div class="card-body">
+                           <h5 class="card-title">Ms. Suriyaa Kumari</h5>
+                           </br>
+                           <span class="badge badge-secondary">Co-Supervisor</span>
+                           <div class="text-group">
+                              <p>Sri Lanka Institute of Information Technology</p>
+                           </div>
+                           <div class="text-group">
+                              <p><strong>Department</strong></p>
+                              <p>INFORMATION TECHNOLOGY</p>
+                              </br>
+                           </div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                           <li class="list-group-item">
+                              <a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/suriyaa-kumari-9a456113b/"><i
+                                 class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                              <a class="card-text" style="cursor: pointer;" href="mailto:suriyaa.k@sliit.lk"><i
+                                 class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="row  mt-sm-5" style="justify-content: center">
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                     <div class="card about-us-card">
+                        <img src="images/samare.jpg" class="about-us-image " alt="D.L.S.S. Samarasena" height="20%" />
+                        <div class="card-body">
+                           <h5 class="card-title">D.L.S.S. Samarasena</h5>
+                           </br>
+                           <span class="badge badge-secondary">Group Leader</span>
+                           <div class="text-group">
+                              <p><strong>Undergraduate</strong></p>
+                              <p>Sri Lanka Institute of Information Technology</p>
+                           </div>
+                           <div class="text-group">
+                              <p><strong>Department</strong></p>
+                              <p>Information Technology</p>
+                           </div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                           <li class="list-group-item">
+                              <a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/sudharake-sachimal-55570a259/"><i
+                                 class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                              <a class="card-text" style="cursor: pointer;" href="mailto:sudharakasamarasena@gmail.com"><i
+                                 class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                     <div class="card about-us-card">
+                        <img src="images/Weera.jpg" class="about-us-image" alt="D.M.M.L.Weerasinghe" height="20%" />
+                        <div class="card-body">
+                           <h5 class="card-title">D.M.M.L.Weerasinghe</h5>
+                           </br>
+                           <span class="badge badge-secondary">Group Member</span>
+                           <div class="text-group">
+                              <p><strong>Undergraduate</strong></p>
+                              <p>Sri Lanka Institute of Information Technology</p>
+                           </div>
+                           <div class="text-group">
+                              <p><strong>Department</strong></p>
+                              <p>Information Technology</p>
+                           </div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                           <li class="list-group-item">
+                              <a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/madusha-lakshan-086a7b249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i
+                                 class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                              <a class="card-text" style="cursor: pointer;" href="mailto:dmmadushalw1999@gmail.com"><i
+                                 class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                     <div class="card about-us-card">
+                        <img src="images/Wije.jpg" class="about-us-image" alt="I.W.K.H Wijesooriya" height="20%" />
+                        <div class="card-body">
+                           <h5 class="card-title">I.W.K.H Wijesooriya</h5>
+                           </br>
+                           <span class="badge badge-secondary">Group Member</span>
+                           <div class="text-group">
+                              <p><strong>Undergraduate</strong></p>
+                              <p>Sri Lanka Institute of Information Technology</p>
+                           </div>
+                           <div class="text-group">
+                              <p><strong>Department</strong></p>
+                              <p>Information Technology</p>
+                           </div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                           <li class="list-group-item">
+                              <a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/kaveesha-wijesooriya-77425422a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i
+                                 class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                              <a class="card-text" style="cursor: pointer;" href="mailto:kaveesha07253@gmail.com"><i
+                                 class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                     <div class="card about-us-card">
+                        <img src="images/De.jpg" class="about-us-image" alt="S.H.R.H. De Silva" height="20%" />
+                        <div class="card-body">
+                           <h5 class="card-title">S.H.R.H. De Silva</h5>
+                           </br>
+                           <span class="badge badge-secondary">Group Member</span>
+                           <div class="text-group">
+                              <p><strong>Undergraduate</strong></p>
+                              <p>Sri Lanka Institute of Information Technology</p>
+                           </div>
+                           <div class="text-group">
+                              <p><strong>Department</strong></p>
+                              <p>Information Technology</p>
+                           </div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                           <li class="list-group-item">
+                              <a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/ranukaharshana?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i
+                                 class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                              <a class="card-text" style="cursor: pointer;" href="mailto:ranukaharshanadesilva@gmail.com"><i
+                                 class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <h1 class="pb-1 pt-5 text-center mb-3 display-5">Meet Our Reaserch Panel</h1>
+            <img src="images/final.jpg" class="center" width="100%">
+         </div>
+      </section>
+      <!-- Contact Us -->
+      <section id="contact" class="main-sections" style="background-color:#FDFEFE">
+         <div class="container">
+            <h5 class="section-headings">Contact Us</h5>
+            <div class="sub-section">
+               <h2>Get in Touch</h2>
+               <div class="row  mt-sm-5">
+                  <div class="col-md-6 col-sm-12 contact-form">
+                     <form action="https://formsubmit.co/kaveesha07253@gmail.com" method="POST">
+                        <div class="form-group">
+                           <label for="name">Name</label>
+                           <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                           <label for="email">Email address</label>
+                           <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                           <label for="message">Message or Query</label>
+                           <textarea class="form-control" name="message" id="message" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btncolorgradient	">Submit</button>
+                     </form>
+                  </div>
+                  <div class="col-md-6 col-sm-12 contact-details">
+                     <div>
+                        <p><strong>Contact Details</strong></p>
+                        <p>For further queries please reach us at <a href="mailto: kaveesha07253@gmail.com">research@gmail.com</a></p>
+                        <p>Hope this project helped you in some manner. Thank you!</p>
+                        <p>-Team Super Green Saver </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </body>
+</html>
